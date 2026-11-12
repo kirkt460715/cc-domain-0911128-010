@@ -1,0 +1,338 @@
+{
+  "document": {
+    "version": 1,
+    "projects": [
+      {
+        "id": "care-north",
+        "county": "county-n",
+        "program": "home-care",
+        "name": "North home care retrofit",
+        "start": 2025,
+        "end": 2027,
+        "status": "active"
+      },
+      {
+        "id": "care-river",
+        "county": "county-r",
+        "program": "community-care",
+        "name": "River community beds",
+        "start": 2026,
+        "end": 2028,
+        "status": "planned"
+      }
+    ],
+    "appropriations": [
+      {
+        "id": "auth-n-26",
+        "project": "care-north",
+        "fiscal_year": 2026,
+        "authorized": "5000.00",
+        "source": "central grant"
+      },
+      {
+        "id": "auth-r-26",
+        "project": "care-river",
+        "fiscal_year": 2026,
+        "authorized": "3000.00",
+        "source": "county match"
+      }
+    ],
+    "disbursements": [
+      {
+        "id": "pay-n-01",
+        "appropriation": "auth-n-26",
+        "date": 20260403,
+        "amount": "2000.00",
+        "kind": "payment",
+        "external_ref": "TREASURY-701"
+      },
+      {
+        "id": "pay-r-01",
+        "appropriation": "auth-r-26",
+        "date": 20260512,
+        "amount": "1000.00",
+        "kind": "payment",
+        "external_ref": "TREASURY-702"
+      }
+    ],
+    "expenses": [
+      {
+        "id": "expense-lot-0-0",
+        "project": "care-north",
+        "date": 20260115,
+        "amount": "8.00",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-0"
+      },
+      {
+        "id": "expense-lot-0-1",
+        "project": "care-north",
+        "date": 20260115,
+        "amount": "10.80",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-1"
+      },
+      {
+        "id": "expense-lot-1-0",
+        "project": "care-north",
+        "date": 20260415,
+        "amount": "9.90",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-0"
+      },
+      {
+        "id": "expense-lot-1-1",
+        "project": "care-north",
+        "date": 20260415,
+        "amount": "13.00",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-1"
+      },
+      {
+        "id": "expense-lot-2-0",
+        "project": "care-north",
+        "date": 20260715,
+        "amount": "12.00",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-0"
+      },
+      {
+        "id": "expense-lot-2-1",
+        "project": "care-north",
+        "date": 20260715,
+        "amount": "15.40",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-1"
+      },
+      {
+        "id": "expense-lot-3-0",
+        "project": "care-north",
+        "date": 20261015,
+        "amount": "14.30",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-0"
+      },
+      {
+        "id": "expense-lot-3-1",
+        "project": "care-north",
+        "date": 20261015,
+        "amount": "18.00",
+        "category": "equipment",
+        "vendor_ref": "VENDOR-1"
+      }
+    ],
+    "milestones": [
+      {
+        "id": "milestone-n-1",
+        "project": "care-north",
+        "code": "delivery",
+        "due_date": 20260630,
+        "required": true
+      },
+      {
+        "id": "milestone-r-1",
+        "project": "care-river",
+        "code": "inspection",
+        "due_date": 20260930,
+        "required": true
+      }
+    ],
+    "deliverables": [
+      {
+        "id": "lot-0-0",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260115,
+        "units": 8,
+        "evidence_ref": "ACCEPT-lot-0-0"
+      },
+      {
+        "id": "lot-0-1",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260115,
+        "units": 9,
+        "evidence_ref": "ACCEPT-lot-0-1"
+      },
+      {
+        "id": "lot-1-0",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260415,
+        "units": 9,
+        "evidence_ref": "ACCEPT-lot-1-0"
+      },
+      {
+        "id": "lot-1-1",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260415,
+        "units": 10,
+        "evidence_ref": "ACCEPT-lot-1-1"
+      },
+      {
+        "id": "lot-2-0",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260715,
+        "units": 10,
+        "evidence_ref": "ACCEPT-lot-2-0"
+      },
+      {
+        "id": "lot-2-1",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20260715,
+        "units": 11,
+        "evidence_ref": "ACCEPT-lot-2-1"
+      },
+      {
+        "id": "lot-3-0",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20261015,
+        "units": 11,
+        "evidence_ref": "ACCEPT-lot-3-0"
+      },
+      {
+        "id": "lot-3-1",
+        "project": "care-north",
+        "milestone": "milestone-n-1",
+        "accepted_date": 20261015,
+        "units": 12,
+        "evidence_ref": "ACCEPT-lot-3-1"
+      }
+    ],
+    "reversals": []
+  },
+  "delivery_lots": [
+    {
+      "delivery": "lot-0-0",
+      "specification": "device-0-v1",
+      "quantity": 8,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-0-1",
+      "specification": "device-1-v1",
+      "quantity": 9,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-1-0",
+      "specification": "device-0-v1",
+      "quantity": 9,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-1-1",
+      "specification": "device-1-v1",
+      "quantity": 10,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-2-0",
+      "specification": "device-0-v1",
+      "quantity": 10,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-2-1",
+      "specification": "device-1-v1",
+      "quantity": 11,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-3-0",
+      "specification": "device-0-v1",
+      "quantity": 11,
+      "unit": "piece",
+      "revision": 1
+    },
+    {
+      "delivery": "lot-3-1",
+      "specification": "device-1-v1",
+      "quantity": 12,
+      "unit": "piece",
+      "revision": 1
+    }
+  ],
+  "delivery_cost_links": [
+    {
+      "id": "link-lot-0-0",
+      "expense": "expense-lot-0-0",
+      "delivery": "lot-0-0",
+      "amount_cents": 800,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-0-1",
+      "expense": "expense-lot-0-1",
+      "delivery": "lot-0-1",
+      "amount_cents": 1080,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-1-0",
+      "expense": "expense-lot-1-0",
+      "delivery": "lot-1-0",
+      "amount_cents": 990,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-1-1",
+      "expense": "expense-lot-1-1",
+      "delivery": "lot-1-1",
+      "amount_cents": 1300,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-2-0",
+      "expense": "expense-lot-2-0",
+      "delivery": "lot-2-0",
+      "amount_cents": 1200,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-2-1",
+      "expense": "expense-lot-2-1",
+      "delivery": "lot-2-1",
+      "amount_cents": 1540,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-3-0",
+      "expense": "expense-lot-3-0",
+      "delivery": "lot-3-0",
+      "amount_cents": 1430,
+      "revision": 1,
+      "void": false
+    },
+    {
+      "id": "link-lot-3-1",
+      "expense": "expense-lot-3-1",
+      "delivery": "lot-3-1",
+      "amount_cents": 1800,
+      "revision": 1,
+      "void": false
+    }
+  ],
+  "study": {
+    "window_quarters": 3,
+    "start_quarter": "2026Q1",
+    "end_quarter": "2026Q4",
+    "revision_start": "2026Q3"
+  }
+}
